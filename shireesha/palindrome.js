@@ -1,4 +1,4 @@
-function checkPalindrome(N) {    
+function checkPalindrome(str) {    
     const reversedString = str.split('').reverse().join('');
     if(str === reversedString)
           return true;
