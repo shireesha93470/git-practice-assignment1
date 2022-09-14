@@ -5,7 +5,7 @@ function isPrime(num) {
     } else if (num > 1) {
       for (var i = 2; i < num; i++) {
   
-        let (num % i !== 0) {
+        if (num % i !== 0) {
           return true;
         } else if (num === i * i) {
           return false
